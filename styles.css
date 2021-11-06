@@ -1,0 +1,141 @@
+body{
+  /* margin-left: 0;
+  margin-right:0;
+  margin-top: 0;
+  margin-bottom:0;            they all together can also be written just by using margin */
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+.rea{
+  font-size: 2rem;
+  margin-top: 0;
+  color:  #66BFBF;
+  font-weight: normal;
+  line-height: 2;
+}
+h1{
+  font-family: 'Sacramento', cursive;
+  color:  #66BFBF;
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-size:5rem; /*100% means 16px so 500% means 80px   another dynamic font size is using em
+  100%=16px=1em*/
+  /* when we use percemtage or em than if we change font size in both h1 and body than it gets added which
+  creates a problem and you may get a gigantic text that you were not expecting so to overcome this in css3
+  latest version instead of em we use rem which ignore what font size is written in parent it just work
+  according to 1rem=16px */
+}
+h3,a{
+  color: #11999E;
+}
+h2{
+  color: #66BFBF;
+}
+.top-container{
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 80px;
+
+}
+/* .middle-container{
+  }
+.bottom-container{
+
+  } */
+.cloud2{
+  position: absolute;
+  left: 400px;
+  bottom: 350px;
+}
+.cloud1{
+  position: absolute;
+  right: 400px;
+  top: 40px;
+}
+.gh{
+  width: 200px;
+  border-radius:100%;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.imagee1{
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+}
+.imagee2{
+  width: 25%;
+  float:right;
+  margin-right: 30px;
+}
+/* if you want that only the title should wrap around the image and the discription should be
+present below it so by assigning the class to that text you can use clear:left as you want it to prevent
+from left side and it is  descibed below */
+/* .prevente{
+  clear: left;
+} */
+.caa{
+  color: #40514E;
+}
+hr{
+  border-style:none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 5px;
+  width:20%;
+  margin:100px auto;
+}
+.end{
+  width: 30%;
+  margin: 40px auto;
+}
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #1199E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #1199E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #1199E);
+  background-image: -o-linear-gradient(top, #11CDD4, #1199E);
+  background-image: linear-gradient(to bottom, #11CDD4, #1199E);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Merriweather', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
+.bottom-container{
+  margin-top: 25px;
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+a{
+  color: #11999E;
+  font-family: 'Merriweather', serif;
+  margin:10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color:#EAF6F6;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
